@@ -101,3 +101,9 @@ p {
 .hero * {
   z-index: 1;
 }
+
+/* Icons */
+.icons h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
