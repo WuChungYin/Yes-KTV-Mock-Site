@@ -59,7 +59,6 @@ p {
 }
 
 /* Hero Section */
-
 .hero {
   background: url("../images/main.jpg") no-repeat center center/cover;
   height: 100vh;
@@ -87,7 +86,6 @@ p {
 }
 
 /* Overlay */
-
 .hero::before {
   content: "";
   position: absolute;
@@ -103,7 +101,7 @@ p {
 }
 
 /* Icons */
-.icons h3 {
-  text-align: center;
-  margin-bottom: 15px;
+.icons i {
+  /* separate icons further from section header */
+  margin-top: 15px;
 }
