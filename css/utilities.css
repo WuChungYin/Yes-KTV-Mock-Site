@@ -16,14 +16,10 @@
   margin-bottom: 12px;
 }
 
-.centered-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 100%;
+.text-container {
+  max-width: 750px;
+  /* centers price-container */
+  margin: auto;
 }
 
 .flex-items {
@@ -43,20 +39,6 @@
   display: flex;
   justify-content: space-between;
 }
-/* .flex-column-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  text-align: left;
-}
-.flex-column-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  text-align: right;
-} */
 .flex-column {
   display: flex;
   flex-direction: column;
