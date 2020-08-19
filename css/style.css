@@ -105,3 +105,17 @@ p {
   /* separate icons further from section header */
   margin-top: 15px;
 }
+
+/* BYOB */
+.byob .centered-text p {
+  margin-bottom: 20px;
+}
+
+/* Reservations */
+/* .reservation ol {
+  display: inline-block;
+  margin: auto;
+}
+.reservation li {
+  text-align: left;
+} */
