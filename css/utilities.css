@@ -16,6 +16,7 @@
   margin-bottom: 12px;
 }
 
+/* container for containing text */
 .text-container {
   max-width: 750px;
   /* centers price-container */
@@ -29,17 +30,38 @@
   text-align: center;
 }
 
+/* container for containing price flex columns */
 .price-container {
   max-width: 750px;
   /* centers price-container */
   margin: auto;
   margin-bottom: 12px;
 }
-.flex-row {
+
+/* Flex Columns - for displaying items and prices */
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-columns .row {
   display: flex;
   justify-content: space-between;
 }
-.flex-column {
+
+/* Flex Grid - for Gallery */
+.flex-grid .row {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.flex-grid .column {
+  /* 4 columns next to each other */
+  flex: 25%;
+  /* making sure columns don't surpass 25% */
+  max-width: 25%;
+  /* padding on sides */
+  padding: 0 4px;
+}
+.flex-grid .column img {
+  max-width: 100%;
 }

@@ -111,11 +111,7 @@ p {
   margin-bottom: 20px;
 }
 
-/* Reservations */
-/* .reservation ol {
-  display: inline-block;
-  margin: auto;
+/* Gallery */
+.gallery h2 {
+  margin-bottom: 40px;
 }
-.reservation li {
-  text-align: left;
-} */
