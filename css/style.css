@@ -115,3 +115,16 @@ p {
 .gallery h2 {
   margin-bottom: 40px;
 }
+
+/* Contact */
+/* aligns paragraphs in contact section to left */
+.contact p {
+  text-align: left;
+}
+.contact i {
+  margin-top: 15px;
+}
+/* remove extra space between rows in business hours */
+.contact .column .row p {
+  margin-top: 0px;
+}
