@@ -18,7 +18,8 @@
 
 /* container for containing text */
 .text-container {
-  max-width: 750px;
+  /* max-width: 750px; */
+  max-width: 75vw;
   /* centers price-container */
   margin: auto;
 }
@@ -35,7 +36,8 @@
 
 /* container for containing price flex columns */
 .price-container {
-  max-width: 750px;
+  /* max-width: 750px; */
+  max-width: 75vw;
   /* centers price-container */
   margin: auto;
   margin-bottom: 12px;

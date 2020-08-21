@@ -1,0 +1,46 @@
+.section-padding {
+  padding: 170px 30px 100px 30px;
+}
+
+.navbar {
+  flex-direction: column;
+  text-align: center;
+  height: 150px;
+  padding: 25px;
+}
+.navbar .logo {
+  margin-bottom: 0;
+}
+.navbar ul {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navbar ul a {
+  display: inline-block;
+  margin: 2px;
+  padding: 2px 2px;
+}
+
+.flex-items {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-items > div {
+  width: 100%;
+}
+
+.flex-columns .row {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex-grid .column {
+  flex: 50%;
+  max-width: 50%;
+}
+
+.contact p {
+  text-align: center;
+}
