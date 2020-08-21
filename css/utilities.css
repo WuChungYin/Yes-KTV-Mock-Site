@@ -26,8 +26,11 @@
 .flex-items {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
+}
+.flex-items > div {
+  width: 33%;
 }
 
 /* container for containing price flex columns */
