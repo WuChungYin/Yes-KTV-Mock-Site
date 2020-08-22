@@ -40,6 +40,8 @@ p {
   position: fixed;
   top: 0px;
   z-index: 9999;
+  /* for NavBar bounce effect */
+  transition: 0.5s;
 }
 .navbar ul {
   display: flex;
@@ -58,6 +60,10 @@ p {
 }
 .navbar .logo a {
   color: white;
+}
+/* For Navbar being transparent for first 100px from top */
+.navbar.top {
+  background: transparent;
 }
 
 /* Hero Section */
