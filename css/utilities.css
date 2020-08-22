@@ -1,19 +1,23 @@
+/* Color Styling */
 .bg-dark {
   background: black;
   color: white;
 }
 
+/* Section Padding - to pad sections */
 .section-padding {
   /* top right bottom left */
-  padding: 65px 30px 60px 30px;
+  padding: 45px 30px 40px 30px;
 }
+
+/* Header Styling */
 .section-header {
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .subsection-header {
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 /* container for containing text */
@@ -24,6 +28,7 @@
   margin: auto;
 }
 
+/* Flex Items - for displaying elements side by side - Icons and Contact Info */
 .flex-items {
   display: flex;
   justify-content: space-around;

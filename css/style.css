@@ -4,10 +4,13 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   /* font-family: Arial, Helvetica, sans-serif; */
   line-height: 1.6;
+  background: url("../images/background.jpg") no-repeat center center/cover;
+  color: white;
 }
 ul {
   list-style: none;
@@ -111,7 +114,7 @@ p {
 /* Icons */
 .icons i {
   /* separate icons further from section header */
-  margin-top: 15px;
+  margin: 20px 0 15px;
 }
 
 /* BYOB */
@@ -130,14 +133,16 @@ p {
   text-align: left;
 }
 .contact i {
-  margin-top: 15px;
+  margin: 20px 0 15px;
 }
 /* remove extra space between rows in business hours */
 .contact .column .row p {
   margin-top: 0px;
 }
 
+/* Footer */
 .footer {
-  margin: 15px 0;
+  margin: 15px 0 0;
+  padding: 10px;
   text-align: center;
 }
