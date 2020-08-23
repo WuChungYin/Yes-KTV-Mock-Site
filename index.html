@@ -11,18 +11,12 @@
       rel="stylesheet"
     />
     <!-- Font Awesome Link -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    /> -->
     <script
       src="https://kit.fontawesome.com/225a3724f6.js"
       crossorigin="anonymous"
     ></script>
     <!-- Lightbox Link for Photo Gallery -->
-    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
     <!-- Regular Styling -->
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -524,11 +518,10 @@
     </footer>
 
     <!-- Javascript for lighthouse effect on photo grid -->
-    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script>
       lightbox.option({
         fitImagesInViewport: true,
-        disableScrolling: true,
         wrapAround: true,
       });
     </script>
@@ -571,7 +564,6 @@
 
       // Vanilla JavaScript Smooth Scroll to Anchor
       // @ https://perishablepress.com/vanilla-javascript-scroll-anchor/
-
       (function () {
         scrollTo();
       })();

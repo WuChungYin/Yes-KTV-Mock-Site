@@ -117,12 +117,6 @@ p {
   z-index: 1;
 }
 
-/* About */
-.about h2 {
-  /* push About section further below hero section */
-  margin-top: 45px;
-}
-
 /* Icons */
 .icons i {
   /* separate icons further from section header */
