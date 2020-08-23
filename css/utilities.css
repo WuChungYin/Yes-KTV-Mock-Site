@@ -7,7 +7,8 @@
 /* Section Padding - to pad sections */
 .section-padding {
   /* top right bottom left */
-  padding: 45px 30px 40px 30px;
+  /* extra padding top so smooth scrolling doesn't cut off section headers */
+  padding: 90px 30px 40px 30px;
 }
 
 /* Header Styling */
