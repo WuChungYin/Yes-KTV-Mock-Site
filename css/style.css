@@ -49,13 +49,15 @@ p {
 }
 .navbar ul {
   display: flex;
+  /* added so navbar doesn't shift off page */
+  flex-wrap: wrap;
   flex-direction: row;
 }
 .navbar ul a {
   /* separate navbar links */
   /* allows padding: */
   display: inline-block;
-  margin: 0 5px;
+  margin: 5 10px;
   padding: 10px 20px;
   color: white;
 }
@@ -95,6 +97,8 @@ p {
 }
 .hero .content h1 {
   font-size: 55px;
+  /* moving content slightly downwards some more so it isn't too high up */
+  padding-top: 150px;
 }
 
 /* Overlay */
@@ -111,6 +115,12 @@ p {
 /* brings hero text above overlay, so it isn't overlaid */
 .hero * {
   z-index: 1;
+}
+
+/* About */
+.about h2 {
+  /* push About section further below hero section */
+  margin-top: 45px;
 }
 
 /* Icons */
