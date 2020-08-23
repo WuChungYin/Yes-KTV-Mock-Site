@@ -46,10 +46,6 @@ body.lb-disable-scrolling {
   height: 250px;
   margin: 0 auto;
   border-radius: 4px;
-
-  /* Background color behind image.
-     This is visible during transitions. */
-  background-color: white;
 }
 
 .lb-outerContainer:after {
@@ -91,10 +87,11 @@ body.lb-disable-scrolling {
 
 .lb-nav a {
   outline: none;
-  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+  background-image: url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==");
 }
 
-.lb-prev, .lb-next {
+.lb-prev,
+.lb-next {
   height: 100%;
   cursor: pointer;
   display: block;
@@ -201,4 +198,23 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+/* *********************** responsive lightbox */
+
+.lb-outerContainer {
+  width: 70% !important;
+  max-width: 1000px !important;
+  /* height: auto !important; */
+  height: 70% !important;
+}
+.lb-outerContainer IMG {
+  width: 70% !important;
+  max-width: 1000px !important;
+  /* height: auto !important; */
+  height: 70% !important;
+}
+.lb-dataContainer {
+  width: 70% !important;
+  max-width: 1000px !important;
 }
