@@ -1,5 +1,5 @@
 .section-padding {
-  padding: 120px 30px 50px 30px;
+  padding: 175px 30px 50px 30px;
 }
 
 .navbar {
@@ -29,11 +29,11 @@
   width: 100%;
 }
 
-.flex-columns .row {
+/* .flex-columns .row {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-}
+} */
 
 .flex-grid .column {
   flex: 33.3%;
@@ -42,4 +42,9 @@
 
 .contact p {
   text-align: center;
+}
+
+.text-container,
+.price-container {
+  max-width: 80vh;
 }
