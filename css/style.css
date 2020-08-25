@@ -150,6 +150,9 @@ p {
 .contact .column .row p {
   margin-top: 0px;
 }
+.contact table {
+  width: 80%;
+}
 
 /* Footer */
 .footer {
