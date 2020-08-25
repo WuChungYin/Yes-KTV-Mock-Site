@@ -40,25 +40,12 @@
   width: 33%;
 }
 
-/* container for containing price flex columns */
-/* .price-container {
-  /* max-width: 750px; */
-/* max-width: 60vw; */
-/* centers price-container */
-/* margin: auto; */
-/* margin-bottom: 12px; */
-/* }  */
-
-/* Flex Columns - for displaying items and prices */
+/* Flex Columns - for formatting and styling tables */
 .flex-columns {
   width: 60vw;
   margin: auto;
   margin-bottom: 12px;
 }
-/* .flex-columns .column {
-  display: flex;
-  flex-direction: column;
-} */
 .flex-columns .row {
   display: flex;
   justify-content: space-between;
