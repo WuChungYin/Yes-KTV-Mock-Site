@@ -141,6 +141,11 @@ p {
 .contact i {
   margin: 20px 0 15px;
 }
+.contact a {
+  /* makes links white and underlined */
+  color: white;
+  text-decoration: underline;
+}
 /* remove extra space between rows in business hours */
 .contact .column .row p {
   margin-top: 0px;
