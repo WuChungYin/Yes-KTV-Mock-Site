@@ -43,7 +43,11 @@
 }
 
 /* makes all tables same width */
-.flex-columns,
-.contact table {
+.flex-columns {
   width: 80vw;
+}
+/* changing table row elements into stack elements */
+.flex-columns .row {
+  display: flex;
+  flex-direction: column;
 }
