@@ -24,7 +24,7 @@
 /* container for containing text */
 .text-container {
   /* max-width: 750px; */
-  max-width: 50vw;
+  max-width: 60vw;
   /* centers price-container */
   margin: auto;
 }
@@ -41,22 +41,28 @@
 }
 
 /* container for containing price flex columns */
-.price-container {
+/* .price-container {
   /* max-width: 750px; */
-  max-width: 50vw;
-  /* centers price-container */
+/* max-width: 60vw; */
+/* centers price-container */
+/* margin: auto; */
+/* margin-bottom: 12px; */
+/* }  */
+
+/* Flex Columns - for displaying items and prices */
+.flex-columns {
+  width: 60vw;
   margin: auto;
   margin-bottom: 12px;
 }
-
-/* Flex Columns - for displaying items and prices */
-.flex-columns .column {
+/* .flex-columns .column {
   display: flex;
   flex-direction: column;
-}
+} */
 .flex-columns .row {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 /* Flex Grid - for Gallery */
